@@ -10,7 +10,7 @@ import UIKit
 
 class ClasseViewController: UIViewController {
     
-    var priscila = 13
+    var priscila = 12
 
     override func viewDidLoad() {
         super.viewDidLoad()
