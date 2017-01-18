@@ -12,6 +12,7 @@
 		1B32D76D1E2FD69500E7F7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B32D76B1E2FD69500E7F7AC /* Main.storyboard */; };
 		1B32D76F1E2FD69500E7F7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B32D76E1E2FD69500E7F7AC /* Assets.xcassets */; };
 		1B32D7721E2FD69500E7F7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B32D7701E2FD69500E7F7AC /* LaunchScreen.storyboard */; };
+		6E7E116A1E2FD9180003EDB7 /* ClasseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E11691E2FD9180003EDB7 /* ClasseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1B32D76E1E2FD69500E7F7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B32D7711E2FD69500E7F7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B32D7731E2FD69500E7F7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7E11691E2FD9180003EDB7 /* ClasseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClasseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1B32D7671E2FD69500E7F7AC /* AppDelegate.swift */,
 				1B32D7691E2FD69500E7F7AC /* ViewController.swift */,
+				6E7E11691E2FD9180003EDB7 /* ClasseViewController.swift */,
 				1B32D76B1E2FD69500E7F7AC /* Main.storyboard */,
 				1B32D76E1E2FD69500E7F7AC /* Assets.xcassets */,
 				1B32D7701E2FD69500E7F7AC /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					1B32D7631E2FD69500E7F7AC = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R3VU9CJ4FV;
+						DevelopmentTeam = 7S5BW22U4Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +142,7 @@
 			files = (
 				1B32D76A1E2FD69500E7F7AC /* ViewController.swift in Sources */,
 				1B32D7681E2FD69500E7F7AC /* AppDelegate.swift in Sources */,
+				6E7E116A1E2FD9180003EDB7 /* ClasseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R3VU9CJ4FV;
+				DEVELOPMENT_TEAM = 7S5BW22U4Y;
 				INFOPLIST_FILE = ProjetoGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bela.ProjetoGit;
@@ -272,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R3VU9CJ4FV;
+				DEVELOPMENT_TEAM = 7S5BW22U4Y;
 				INFOPLIST_FILE = ProjetoGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bela.ProjetoGit;
@@ -300,6 +304,7 @@
 				1B32D7781E2FD69500E7F7AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
